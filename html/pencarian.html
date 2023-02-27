@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/pencarian.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/index.js"></script>
+    <title>Pencarian</title>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid px-5">
+        <img src="../media/logo.svg" class="logo__navbar" alt="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse pe-5" id="navbarNav">
+            <ul class="navbar-nav ms-auto gap-3 fw-semibold ">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        Tentang Kami
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Koleksi Terbaru</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./login.html"
+                       class="nav-link btn btn-sm btn-warning rounded-pill border-0 btn__login">Login</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<section id="search__bar" class="container-fluid">
+    <div class="row">
+        <div class="col-lg-7 col-12 d-flex align-items-center gap-3 my-5">
+            <label class="w-75 ps-lg-5">
+                <input type="text" class="form-control rounded-pill px-4" placeholder="Search"/>
+            </label>
+            <button class="btn btn-warning rounded-pill text-white button__ fw-semibold">Search</button>
+            <button class="btn btn-warning rounded-pill text-white button__ fw-semibold">Clear</button>
+        </div>
+    </div>
+</section>
+<section id="search__result" class="container-fluid search__result rounded rounded-top rounded-3 overflow-auto">
+    <div class="row">
+        <div class="col-12 p-4">
+            <h3 class="fw-bold text__custom">Hasil Pencarian</h3>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center align-items-top gap-3 h-75 w-100">
+        <div class=" col-xxl-3 col-xl-3 col-lg-4 col-12">
+            <a href="hasil-pencarian.html"
+               class="w-100 text-dark search__item text-decoration-none fw-semibold">
+                <img src="../media/book.svg" alt="">
+                <div class="w-75">
+                    <div class="d-flex">
+                        <div class="d-flex justify-content-between" style="width: 80px"><span>Judul</span>
+                            <span>:</span>
+                        </div>
+                        <div class="text-start ps-1">Lorem</div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="d-flex justify-content-between" style="width: 80px"><span>Penerbit</span>
+                            <span>:</span>
+                        </div>
+                        <div class="text-start ps-1">Ipsum</div>
+                    </div>
+                    <div class="fw-semibold"><i class="bi bi-2-square-fill"></i> Category</div>
+                </div>
+            </a>
+        </div>
+        <div class=" col-xxl-3 col-xl-3 col-lg-4 col-12">
+            <a href="hasil-pencarian.html"
+               class="dlex w-100 text-dark search__item text-decoration-none fw-semibold">
+                <img src="../media/book.svg" alt="">
+                <div class="w-75">
+                    <div class="d-flex">
+                        <div class="d-flex justify-content-between" style="width: 80px"><span>Judul</span>
+                            <span>:</span>
+                        </div>
+                        <div class="text-start ps-1">Lorem</div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="d-flex justify-content-between" style="width: 80px"><span>Penerbit</span>
+                            <span>:</span>
+                        </div>
+                        <div class="text-start ps-1">Ipsum</div>
+                    </div>
+                    <div class="fw-semibold"><i class="bi bi-2-square-fill"></i> Category</div>
+                </div>
+            </a>
+        </div>
+        <div class=" col-xxl-3 col-xl-3 col-lg-4 col-12">
+            <a href="hasil-pencarian.html"
+               class="dlex w-100 text-dark search__item text-decoration-none fw-semibold">
+                <img src="../media/book.svg" alt="">
+                <div class="w-75">
+                    <div class="d-flex">
+                        <div class="d-flex justify-content-between" style="width: 80px"><span>Judul</span>
+                            <span>:</span>
+                        </div>
+                        <div class="text-start ps-1">Lorem</div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="d-flex justify-content-between" style="width: 80px"><span>Penerbit</span>
+                            <span>:</span>
+                        </div>
+                        <div class="text-start ps-1">Ipsum</div>
+                    </div>
+                    <div class="fw-semibold"><i class="bi bi-2-square-fill"></i> Category</div>
+                </div>
+            </a>
+        </div>
+        <div class="col-12 d-flex justify-content-center">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a class="page-link bg-transparent text-dark fw-semibold border-0" href="#"
+                           aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link bg-transparent text-custom fw-bold border-0"
+                                             href="#">1</a>
+                    </li>
+                    <li class="page-item"><a class="page-link bg-transparent text-dark fw-semibold border-0"
+                                             href="#">2</a>
+                    </li>
+                    <li class="page-item"><a class="page-link bg-transparent text-dark fw-semibold border-0"
+                                             href="#">3</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link bg-transparent text-dark fw-semibold border-0" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+<footer>
+    <h6 class="text-white text-center">Copyright 2022 © SMP Al Falah Ketintang Surabaya</h6>
+</footer>
+</body>
+
+</html>

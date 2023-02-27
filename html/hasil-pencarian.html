@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hasil Pencarian</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/hasil-pencarian.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/index.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid px-5">
+        <img src="../media/logo.svg" class="logo__navbar" alt="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse pe-5" id="navbarNav">
+            <ul class="navbar-nav ms-auto gap-3 fw-semibold ">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        Tentang Kami
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Koleksi Terbaru</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./login.html"
+                       class="nav-link btn btn-sm btn-warning rounded-pill border-0 btn__login">Login</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<section id="search__bar" class="container">
+    <div class="row">
+        <div class="col-2 d-flex align-items-center gap-3 my-5">
+            <a href="pencarian.html" class="btn btn-warning rounded-pill text-light w-75" style="min-width: 100px">Back</a>
+        </div>
+    </div>
+</section>
+<section id="search__result" class="container card rounded rounded-4 overflow-auto">
+    <div class="row">
+        <div class="col-12 p-4">
+            <h3 class="fw-bold text__custom text-center">Details</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 d-flex justify-content-center h-auto pb-lg-5 pb-0" style="min-height: 300px">
+            <img src="../media/book.svg" alt="" class="">
+        </div>
+        <div class="col-lg-6 col-12 d-flex flex-column justify-content-center p-lg-2 p-5">
+            <table class="border-0 text__custom fw-semibold align-bottom ">
+                <tr class="pb-2">
+                    <td class="align-baseline w-lg-25 w-50">Nomor Panggil</td>
+                    <td class="align-baseline text-center">:</td>
+                    <td class="align-baseline">Lorem</td>
+                </tr>
+                <tr class="pb-2">
+                    <td class="align-baseline w-25">Judul Buku</td>
+                    <td class="align-baseline text-center">:</td>
+                    <td class="align-baseline">Lorem</td>
+                </tr>
+                <tr class="pb-2">
+                    <td class="align-baseline w-25">Pengarang</td>
+                    <td class="align-baseline text-center">:</td>
+                    <td class="align-baseline">Lorem</td>
+                </tr>
+                <tr class="pb-2">
+                    <td class="align-baseline w-25">Penerbit</td>
+                    <td class="align-baseline text-center">:</td>
+                    <td class="align-baseline">Lorem</td>
+                </tr>
+                <tr class="pb-2">
+                    <td class="align-baseline w-25">Jumlah Halaman</td>
+                    <td class="align-baseline text-center">:</td>
+                    <td class="align-baseline">Lorem</td>
+                </tr>
+                <tr class="pb-2">
+                    <td class="align-baseline w-25">Kategori</td>
+                    <td class="align-baseline text-center">:</td>
+                    <td class="align-baseline">Lorem</td>
+                </tr>
+            </table>
+            <div class="mt-4 table__detail">
+                <table class="table table-bordered table-sm mw-100">
+                    <thead class="bg__custom text-dark">
+                    <tr>
+                        <td>No.</td>
+                        <td>Code Barcode</td>
+                        <td>Kondisi</td>
+                        <td>Status</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1.</td>
+                        <td>q920192lf</td>
+                        <td>Bekas</td>
+                        <td>Tersedia</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</section>
+<footer>
+    <h6 class="text-white text-center">Copyright 2022 © SMP Al Falah Ketintang Surabaya</h6>
+</footer>
+</body>
+</html>
